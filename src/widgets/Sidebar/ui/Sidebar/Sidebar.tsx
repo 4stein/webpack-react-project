@@ -19,7 +19,6 @@ export const Sidebar: FC<SidebarProps> = props => {
   const onToggle = () => {
     setCollapsed(prev => !prev);
   };
-
   return (
     <div
       data-testid="sidebar"
