@@ -1,25 +1,47 @@
-/* eslint-disable object-curly-newline */
-import { ButtonHTMLAttributes, FC } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
+import { ButtonHTMLAttributes, FC } from 'react';
 import classes from './Button.module.scss';
 
-export enum ThemeButton {
+export enum ButtonTheme {
   CLEAR = 'clear',
   OUTLINE = 'outline',
+  BACKGROUND = 'background',
+  BACKGROUND_INVERTED = 'backgroundInverted',
+}
+
+export enum ButtonSize {
+  M = 'size_m',
+  L = 'size_l',
+  XL = 'size_xl',
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
-  theme?: ThemeButton;
+  theme?: ButtonTheme;
+  square?: boolean;
+  size?: ButtonSize;
 }
 
 export const Button: FC<ButtonProps> = (props: any) => {
-  const { className, children, theme, ...otherProps } = props;
+  const {
+    className,
+    children,
+    theme,
+    square,
+    size = ButtonSize.M,
+    ...otherProps
+  } = props;
+
+  const mods: Record<string, boolean> = {
+    [classes[theme]]: true,
+    [classes.square]: square,
+    [classes[size]]: true,
+  };
 
   return (
     <button
       type="button"
-      className={classNames(classes.Button, {}, [className, classes[theme]])}
+      className={classNames(classes.Button, mods, [className])}
       {...otherProps}
     >
       {children}
