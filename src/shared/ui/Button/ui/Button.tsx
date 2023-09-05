@@ -38,7 +38,6 @@ export const Button: FC<ButtonProps> = (props: any) => {
     [classes.square]: square,
     [classes[size]]: true,
   };
-
   return (
     <button
       type="button"
