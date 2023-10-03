@@ -4,13 +4,13 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
 import { AppRouter } from './providers/router';
-import { useTheme } from './providers/ThemeProvider';
+// import { useTheme } from './providers/ThemeProvider';
 
 const App = () => {
-  const { theme } = useTheme();
+  // const { theme } = useTheme();
 
   return (
-    <div className={classNames('app', {}, [theme])}>
+    <div className={classNames('app', {}, [])}>
       <Suspense fallback="">
         <Navbar className="" />
         <div className="content-page">
