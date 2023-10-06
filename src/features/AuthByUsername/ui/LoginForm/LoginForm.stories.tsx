@@ -10,7 +10,7 @@ export default {
   },
 } as ComponentMeta<typeof LoginForm>;
 
-const Template: ComponentStory<typeof LoginForm> = args => (
+const Template: ComponentStory<typeof LoginForm> = (args: any) => (
   <LoginForm {...args} />
 );
 
