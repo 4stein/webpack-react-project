@@ -33,13 +33,6 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
-    'implicit-arrow-linebreak': 'off',
-    'comma-dangle': 'off',
-    'arrow-body-style': 'off',
-    'operator-linebreak': 'off',
-    'linebreak-style': 'off',
-    'react/self-closing-comp': 'off',
-    'react/jsx-wrap-multilines': 'off',
     'i18next/no-literal-string': [
       'error',
       {
@@ -47,13 +40,12 @@ module.exports = {
         ignoreAttribute: ['data-testid', 'to'],
       },
     ],
-    'max-len': ['error', { ignoreComments: true, code: 100 }],
+    'max-len': ['error', { ignoreComments: true, code: 120 }],
     'jsx-a11y/no-static-element-interactions': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
-    'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
+    'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies,
     'no-param-reassign': 'off',
-    'arrow-parens': 'off',
   },
   globals: {
     __IS_DEV__: true,

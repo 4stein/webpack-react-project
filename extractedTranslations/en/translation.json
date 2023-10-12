@@ -1,26 +1,25 @@
 {
-  "About Us": "About Us",
+  "About us": "About us",
+  "About us123123": "About us123123",
   "Active Language": "Active Language",
-  "Active Leng": "Active Leng",
+  "An unexpected error occurred": "An unexpected error occurred",
+  "Authorization form": "Authorization form",
   "Enter password": "Enter password",
-  "Enter text": "Enter text",
   "Enter username": "Enter username",
   "Home": "Home",
-  "Home Page": "Home Page",
+  "Home page": "Home page",
   "Language": "Language",
-  "Languige": "Languige",
-  "Leng": "Leng",
-  "Loading": "Loading...",
-  "Lorem ipsum dolor sit amet consectetur, adipisicing elit": {
-    " At, minima": {
+  "Logout": "Logout",
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
       "": ""
     }
   },
   "Page not found": "Page not found",
+  "Reload page": "Reload page",
   "Sign in": "Sign in",
-  "Toggle": "Toggle",
-  "Unexpected error occurred": "Unexpected error occurred",
-  "Update page": "Update page",
-  "Главная": "Главная",
-  "О сайте": "О сайте"
+  "Sign out": "Sign out",
+  "You entered an incorrect username or password": "You entered an incorrect username or password",
+  "error": "error",
+  "toggle": "toggle"
 }

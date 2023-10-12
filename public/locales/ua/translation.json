@@ -4,11 +4,14 @@
   "Enter text": "Введіть текст",
   "Enter username": "Введіть логін",
   "Enter password": "Введіть пароль",
+  "Authorization form": "Форма авторизації",
+  "You entered an incorrect username or password": "Неправельний логін або пароль",
+  "Logout": "Вийти",
   "Active Language": "Активна мова",
   "Toggle": "Перемикач",
   "Loading": "Завантаження...",
-  "Home Page": "Головна",
-  "About Us": "Про нас",
+  "Home": "Головна",
+  "About us": "Про нас",
   "Page not found": "Сторінка не знайдена",
   "Unexpected error occurred": "Сталася неочікувана помилка"
 }

@@ -4,11 +4,14 @@
   "Enter text": "Enter text",
   "Enter username": "Enter username",
   "Enter password": "Enter password",
+  "Authorization form": "Authorization form",
+  "You entered an incorrect username or password": "Wrong username or password",
+  "Logout": "Logout",
   "Active Language": "Active Language",
   "Toggle": "Toggle",
   "Loading": "Loading...",
-  "Home Page": "Home",
-  "About Us": "About Us",
+  "Home": "Home",
+  "About us": "About Us",
   "Page not found": "Page not found",
   "Unexpected error occurred": "Unexpected error occurred"
 }

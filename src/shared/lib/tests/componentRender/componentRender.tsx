@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 import { ReactNode } from 'react';
 import { render } from '@testing-library/react';
 import { I18nextProvider } from 'react-i18next';
@@ -13,6 +14,7 @@ export interface componentRenderOptions {
 
 export function componentRender(
   component: ReactNode,
+  // eslint-disable-next-line comma-dangle
   options: componentRenderOptions = {}
 ) {
   const { route = '/', initialState } = options;
