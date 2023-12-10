@@ -26,8 +26,8 @@
     }
   ],
   "profile": {
-    "first": "",
-    "lastname": "",
+    "firstName": "Mike",
+    "lastName": "Stein",
     "age": 31,
     "currency": "UA",
     "country": "Ukraine",

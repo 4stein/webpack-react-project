@@ -53,9 +53,11 @@ module.exports = {
     'operator-linebreak': 'off',
     'linebreak-style': 'off',
     'arrow-body-style': 'off',
+    'no-undef': 'off',
   },
   globals: {
     __IS_DEV__: true,
+    __API__: true,
   },
   overrides: [
     {

@@ -1,5 +1,4 @@
 /* eslint-disable linebreak-style */
-import { DeepPartial } from '@reduxjs/toolkit';
 import { loginActions, loginReducer } from './loginSlice';
 import { LoginSchema } from '../types/loginSchema';
 
