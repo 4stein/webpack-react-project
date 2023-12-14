@@ -1,4 +1,5 @@
 {
+  "": "",
   "About us": "About us",
   "About us123123": "About us123123",
   "Active Language": "Active Language",
@@ -6,11 +7,16 @@
   "Authorization form": "Authorization form",
   "Cancel": "Cancel",
   "Edit": "Edit",
+  "Empty user login or password": "Empty user login or password",
   "Enter password": "Enter password",
   "Enter username": "Enter username",
   "Here is error": "Here is error",
   "Home": "Home",
   "Home page": "Home page",
+  "Incorrect age": "Incorrect age",
+  "Incorrect country": "Incorrect country",
+  "Incorrect user data": "Incorrect user data",
+  "Internal server error": "Internal server error",
   "Language": "Language",
   "Logout": "Logout",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
@@ -36,6 +42,9 @@
   "Your city": "Your city",
   "Your lastname": "Your lastname",
   "Your name": "Your name",
+  "empty data": "empty data",
+  "empty user login or password": "empty user login or password",
   "error": "error",
+  "internal server error": "internal server error",
   "toggle": "toggle"
 }

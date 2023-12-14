@@ -1,6 +1,21 @@
 {
+  "Cancel": "",
   "Edit": "",
+  "Empty user login or password": "",
+  "Here is error": "",
+  "Incorrect age": "",
+  "Incorrect country": "",
+  "Incorrect user data": "",
+  "Internal server error": "",
   "Profile": "",
+  "Save": "",
+  "Select country": "",
+  "Select currency": "",
+  "Try to update page": "",
+  "Write Username": "",
+  "Write avatar link": "",
+  "Your age": "",
+  "Your city": "",
   "Your lastname": "",
   "Your name": ""
 }

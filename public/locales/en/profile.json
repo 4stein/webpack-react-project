@@ -11,5 +11,10 @@
   "User avatar": "User avatar",
   "Write avatar link": "Write avatar link",
   "Select currency": "Select currency",
-  "Select country": "Select country"
+  "Select country": "Select country",
+  "Internal server error": "Internal server error",
+  "Incorrect country": "Incorrect country",
+  "Empty user login or password": "Empty user login or password",
+  "Incorrect user data": "Incorrect user data",
+  "Incorrect age": "Incorrect age"
 }

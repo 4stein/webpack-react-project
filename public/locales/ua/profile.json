@@ -10,5 +10,10 @@
   "User avatar": "Аватар користувача",
   "Write avatar link": "Напиши лінк аватару",
   "Select currency": "Виберіть валюту",
-  "Select country": "Виберіть країну"
+  "Select country": "Виберіть країну",
+  "Internal server error": "Виникла серверна помилка",
+  "Incorrect country": "Некоректний регіон",
+  "Empty user login or password": "Пусті поля логіна або паролю",
+  "Incorrect user data": "Некоректні дані користувача",
+  "Incorrect age": "Некоректний вік"
 }

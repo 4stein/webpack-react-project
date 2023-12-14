@@ -54,10 +54,12 @@ module.exports = {
     'linebreak-style': 'off',
     'arrow-body-style': 'off',
     'no-undef': 'off',
+    'consistent-return': 'off',
   },
   globals: {
     __IS_DEV__: true,
     __API__: true,
+    __PROJECT__: true,
   },
   overrides: [
     {
